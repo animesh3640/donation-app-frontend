@@ -1,0 +1,24 @@
+.accordion {
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 70%;
+  }
+  
+  .accordion-button {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  
+  .accordion.open .accordion-content {
+    display: block;
+  }
+  

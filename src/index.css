@@ -1,0 +1,52 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+  display: flex;
+  gap: 10px;
+  background-color: navy;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+nav a{
+  color:  white;
+  text-decoration: none;
+}
+.wrapper{
+  margin-top: 0px;
+  background-color: gray;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 100vh;
+}
+.makedonation-form{
+  margin-top: 0px;
+  display:  flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.makedonation-form input{
+  width: 16rem;
+  padding: 10px;
+  margin: 10px;
+}
+.makedonation-button{
+  padding: 10px;
+  background-color: aqua;
+  cursor: pointer;
+  
+}
+.message{
+  
+  border: 2px solid rosybrown;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: break-spaces;
+}
