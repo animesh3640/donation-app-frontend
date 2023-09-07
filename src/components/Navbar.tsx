@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <nav>
         <a href="/">Home</a>
-        <a href="https://animesh-karne-donation-app.netlify.app/makedonation">Make Donation</a>
-        <a href="https://animesh-karne-donation-app.netlify.app/donationhistory">Donation History</a>
+        <a href="/makedonation">Make Donation</a>
+        <a href="/donationhistory">Donation History</a>
     </nav>
   );
 };
