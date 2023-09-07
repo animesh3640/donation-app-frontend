@@ -10,8 +10,8 @@ function App() {
       <Navbar></Navbar>
         <Routes>
           <Route path='/' element={<Homepage/>}/>
-          <Route path='https://animesh-karne-donation-app.netlify.app/makedonation' element={<MakeDonation/>}/>
-          <Route path='https://animesh-karne-donation-app.netlify.app/donationhistory' element={<DonationHistory/>}/>
+          <Route path='/makedonation' element={<MakeDonation/>}/>
+          <Route path='/donationhistory' element={<DonationHistory/>}/>
         </Routes>
     </div>
   );
